@@ -1,8 +1,10 @@
 import sys
 from pyzabbix import ZabbixAPI
-
+# # Установка дополнительных пакетов
+#apt install python3-dev python3-setuptools -y
+#pip3 install pyzabbix
 # Конфигурация подключения к Zabbix
-ZABBIX_URL = "http://10.15.23.49/zabbix"
+ZABBIX_URL = "http://192.166.1.1/zabbix"
 ZABBIX_USER = "Admin"
 ZABBIX_PASSWORD = "zabbix"
 
